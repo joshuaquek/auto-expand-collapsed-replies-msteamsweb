@@ -1,5 +1,5 @@
  {
-      "name": "Auto 'See More' for Microsoft Teams Web",
+      "name": "Auto 'Replies' Expander for MS Teams Web",
       "version": "1.0",
       "manifest_version": 2,
       "content_scripts": [

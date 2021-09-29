@@ -16,10 +16,12 @@ function onReady (yourMethod) {
 }
 
 onReady(function () {
-  const nodeArray = document.querySelectorAll('.ts-see-more-fold')
+  const nodeArray = document.querySelectorAll('.ts-collapsed-string')
   for (let index = 0; index < nodeArray.length; index++) {
     const element = nodeArray[index]
-    fireClick(element)
+    if(!element.parentNode.classList.contains('chevron-expanded')){
+      fireClick(element)
+    }
   }
   // console.log(`>>>> Expanding ${nodeArray.length} messages via virtual "See More" clicks in MS Teams. 📖📖📖`)
   // if (nodeArray.length === 0) console.log('>>>> All "See More" messages have been expanded in MS Teams, hooray! 🎉🎉🎉')
