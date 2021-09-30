@@ -1,4 +1,4 @@
-# 📖 Auto "Expand Replies" for MS Teams
+# 📖 Auto Expand "Collapsed Replies" for MS Teams
 This simple Google Chrome extension for Microsoft Teams Web came about after realising that its quite tedious to be constantly expanding the "Collapsed Replies / View XX Replies" button on each individual message on Microsoft Teams Web.
 
 ## ⚙️Installation
